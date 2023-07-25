@@ -91,3 +91,7 @@ body{
     box-shadow: var(--box-shadow);
     color:white;
 }
+.mypicture{
+    width: 30px;
+    margin: 0 auto;
+}
