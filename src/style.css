@@ -73,17 +73,6 @@ body{
   padding: 25px 20px;
   text-decoration: none;
 }
-.email-link{
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 30px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
 .primary-link{
     border-radius:4px;
     padding:20px 15px;
@@ -98,4 +87,30 @@ body{
 }
 .logo{
     width: 80px;
+}
+
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
